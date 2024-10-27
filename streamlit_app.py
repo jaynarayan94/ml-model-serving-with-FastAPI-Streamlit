@@ -27,7 +27,7 @@ if model=="Sentiment Classifier":
 
 elif model=="Disaster Classifier":
     text = st.text_area("Enter Your Tweet")
-    user_id = st.text_input("Enter user id", "udemy@kgptalkie.com")
+    user_id = st.text_input("Enter user id", "jaynd@test.com")
 
     data = {"text": [text], "user_id": user_id}
     model_api = "disaster_classifier"
